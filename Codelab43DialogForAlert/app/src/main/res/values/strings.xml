@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Codelab4.3:Dialog For Alert</string>
+    <string name="hello_dialog">Hello Dialog!</string>
+</resources>

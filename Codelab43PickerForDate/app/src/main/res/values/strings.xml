@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Codelab4.3:Picker For Date</string>
+    <string name="hello_please_choose_a_date">Hello: please choose a date!</string>
+    <string name="date">DATE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="datapicker">datePicker</string>
+    <string name="date1">Date:</string>
+</resources>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity">
+
+
+    <TextView
+        android:id="@+id/phone_label"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/Adress_label_text"
+        app:layout_constraintEnd_toStartOf="@+id/phone_text"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address_label" />
+
+    <EditText
+        android:id="@+id/phone_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="116dp"
+        android:ems="10"
+        android:hint="@string/enter_adress_hint"
+        android:inputType="textPostalAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address_text"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/order_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/order_label_text"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/name_label_text"
+        app:layout_constraintEnd_toStartOf="@+id/name_text"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/order_textview" />
+
+    <EditText
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="116dp"
+        android:ems="10"
+        android:hint="@string/enter_name_hint"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/order_textview"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/address_label"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/phone_label_text"
+        app:layout_constraintEnd_toStartOf="@+id/address_text"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_text" />
+
+    <EditText
+        android:id="@+id/address_text"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="172dp"
+        android:ems="10"
+        android:hint="@string/enter_phone_hint"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/note_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/note_label_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_label" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toEndOf="@+id/note_label"
+        app:layout_constraintTop_toBottomOf="@+id/phone_text" />
+
+    <TextView
+        android:id="@+id/delivery_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/choose_delivery_method"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:checkedButton="@+id/sameday"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/delivery_label"
+        tools:ignore="RtlHardcoded">
+
+        <RadioButton
+            android:id="@+id/sameday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/same_day_messenger_service" />
+
+        <RadioButton
+            android:id="@+id/nextday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/next_day_ground_delivery" />
+
+        <RadioButton
+            android:id="@+id/pickup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/pick_up" />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/label_spinner"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+
+        android:dropDownWidth="wrap_content"
+        android:entries="@array/labels_array"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/address_text"
+        app:layout_constraintTop_toBottomOf="@+id/name_text" />
+
+</android.support.constraint.ConstraintLayout>

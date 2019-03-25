@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">codelab1.1</string>
+    <string name="body">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id tempor lorem. Duis id neque ac tellus pulvinar tristique. Donec ac felis neque. Maecenas sit amet gravida nisl. Duis quis urna sit amet sapien porta tempus sit amet vitae velit. Duis eget erat commodo, molestie diam eget, egestas metus. Sed eget ante ut odio tincidunt mattis. Nunc lacinia ac libero ut volutpat. Duis maximus, tellus eget facilisis lacinia, turpis lacus rutrum dui, et lobortis ligula tellus sit amet velit. Duis ipsum felis, porta in nulla vitae, tincidunt convallis sem. Praesent non porta magna, sed feugiat ipsum. Integer sapien erat, placerat eu risus a, cursus pretium lectus. Etiam sagittis, lorem nec euismod vehicula, orci nunc efficitur mi, sed porta mauris nisl sagittis eros. Phasellus sollicitudin ligula velit, nec sodales magna tempor ut.
+
+Cras vitae pharetra ante. In cursus, augue id cursus gravida, risus magna rutrum neque, nec ultricies neque lacus vel turpis. Aenean id justo et velit feugiat congue. Praesent vehicula ipsum maximus diam dapibus vestibulum. Nullam ex purus, malesuada sed mollis sed, posuere a diam. Curabitur eget libero risus. Quisque tempus imperdiet nunc nec eleifend. Curabitur dapibus felis ac cursus rutrum. Aliquam facilisis odio sed eros gravida lacinia. Ut elementum pharetra aliquam. Duis a ornare enim. Nunc ac lectus sit amet magna convallis porta.
+
+Sed lacus enim, accumsan eget sem a, facilisis pharetra ligula. Nullam non ultricies purus. Donec sit amet lobortis nisl. Etiam condimentum, est at dignissim ullamcorper, dolor risus cursus est, ac aliquet mi massa non urna. Mauris faucibus sapien libero, at consequat ipsum suscipit at. Etiam mattis diam nisl, eget pharetra est fermentum ornare. Nullam egestas enim sed leo vehicula pretium. Etiam pharetra sem quam, vitae finibus dui fermentum eget. Etiam id tellus consequat, porttitor neque in, viverra sapien. Suspendisse convallis in sem feugiat aliquam. Vivamus pretium malesuada augue. Nulla facilisi. Proin dignissim ullamcorper egestas. Etiam nibh odio, vestibulum a commodo vitae, elementum eu tortor. Vivamus non suscipit erat.
+
+Vestibulum accumsan turpis tortor, a consequat risus viverra non. Donec maximus imperdiet urna sed consequat. Pellentesque sit amet pharetra est. Suspendisse eget dolor vel nibh gravida vestibulum at. </string>
+    <string name="heading_1">Heading 1</string>
+    <string name="heading_2">Heading 2</string>
+</resources>

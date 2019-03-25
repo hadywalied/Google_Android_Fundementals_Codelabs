@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">codelab7.3:PowerReceiver</string>
+    <string name="send_custom_broadcast">Send Custom Broadcast</string>
+</resources>

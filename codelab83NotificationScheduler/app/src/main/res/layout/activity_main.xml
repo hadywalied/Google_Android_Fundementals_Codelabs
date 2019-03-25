@@ -1,0 +1,87 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/network_type_required"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+
+    <RadioGroup
+        android:id="@+id/networkOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/noNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/none" />
+
+        <RadioButton
+            android:id="@+id/anyNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/any_network" />
+
+        <RadioButton
+            android:id="@+id/wifiNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wifi" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/required"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/idleSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_idle" />
+
+        <Switch
+            android:id="@+id/chargingSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_charging" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:onClick="scheduleJob"
+        android:text="@string/schedule_job" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:onClick="cancelJobs"
+        android:text="@string/cancel_jobs" />
+
+</LinearLayout>

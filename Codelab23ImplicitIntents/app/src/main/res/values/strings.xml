@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Codelab2.3:Implicit Intents</string>
+    <string name="web">open website</string>
+    <string name="website">developer.android.com</string>
+    <string name="geo">Cairo</string>
+    <string name="Location">Open Location</string>
+    <string name="share">share this text</string>
+    <string name="text_to_share">bla bla bla</string>
+</resources>

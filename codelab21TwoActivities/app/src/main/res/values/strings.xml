@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">codelab2.1:TwoActivities</string>
+    <string name="activity2_name">Second Activity</string>
+    <string name="msgrecieved">Message Recieved</string>
+    <string name="message">message</string>
+    <string name="reply">Reply</string>
+    <string name="reply_recieved">Reply Recieved</string>
+</resources>
